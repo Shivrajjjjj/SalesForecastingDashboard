@@ -1,0 +1,58 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 fw-bold text-primary">🚀 IT Sales Forecasting Dashboard</h1>
+        <p class="lead text-muted">
+            Real-time forecasting for your software company's monthly sales using ML.NET and ASP.NET Core.
+        </p>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <h5 class="card-title text-success">🧾 Track Monthly Revenue</h5>
+                    <p class="card-text">
+                        Upload sales data from .NET projects, AI/ML consulting, DevOps, and cloud deployments.
+                        Visualize growth trends for smart business decisions.
+                    </p>
+                    <a class="btn btn-outline-primary" asp-page="/Forecast">Go to Forecast</a>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">🧠 Predict with ML.NET</h5>
+                    <p class="card-text">
+                        Forecast future sales with Microsoft's ML.NET Time Series model using real project data.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <h5 class="card-title text-info">📉 Visual Dashboards</h5>
+                    <p class="card-text">
+                        Analyze real-time charts using Chart.js. See sales by month and projected income.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-secondary">🧰 Tech Stack</h5>
+                    <p class="card-text">
+                        Built using .NET 8, ASP.NET Core Razor Pages, ML.NET, SQL Server, and Chart.js – perfect for software product companies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-danger">
+        <div class="card-header bg-danger text-white">
+            <h2 class="mb-0">⚠️ An error occurred</h2>
+        </div>
+        <div class="card-body">
+            <p class="text-danger fw-bold">We’re sorry, but something went wrong while processing your request.</p>
+
+            @if (Model.ShowRequestId)
+            {
+            <p>
+                <strong>Request ID:</strong>
+                <code class="text-secondary">@Model.RequestId</code>
+            </p>
+            }
+
+            <div class="alert alert-warning mt-4" role="alert">
+                <h5 class="alert-heading">Development Mode Tip</h5>
+                <p>
+                    You are currently not in <strong>Development</strong> mode.
+                    To see detailed error information:
+                </p>
+                <ul>
+                    <li>Set the environment variable <code>ASPNETCORE_ENVIRONMENT</code> to <strong>Development</strong>.</li>
+                    <li>Restart the application.</li>
+                </ul>
+                <p class="mb-0"><strong>Note:</strong> Do not use Development mode in production.</p>
+            </div>
+        </div>
+    </div>
+</div>

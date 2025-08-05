@@ -1,0 +1,91 @@
+﻿/* Modernized styles for SalesForecastingDashboard */
+/* For more, see: https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding-bottom: 60px; /* for footer spacing */
+}
+
+a.navbar-brand {
+    white-space: nowrap;
+    text-align: center;
+    word-break: break-word;
+    font-weight: bold;
+    color: #0d6efd !important;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Buttons */
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+    .btn-primary:hover {
+        background-color: #155a9c;
+        border-color: #134f89;
+    }
+
+/* Nav pills */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Borders */
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Shadow utility */
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Cookie / policy buttons */
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Footer fix */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    line-height: 1.5;
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Responsive container padding */
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Chart area margin if added */
+.chart-container {
+    margin-top: 40px;
+}
